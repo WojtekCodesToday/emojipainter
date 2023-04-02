@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#result{
+    display: none;
+}
+
+#base {
+    align-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
+
+#sep{
+    margin-top: 10px;
+}
+
+#setupctrl {
+    display: inline-block;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#setupheader {
+    background-color: #bbbbbb;
+    width: 100%;
+    height: 80px;
+    margin-left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#setupheader h2 {
+    margin: 0;
+}
+
+#setupcontents {
+    display: grid;
+    align-self: center;
+    margin-top: 10px;
+}
+
+#setup {
+    background-color: #dadada;
+    border-radius: 10px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    width: 320px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#gridcontainer{
+    overflow: auto;
+    border-radius: 10px;
+    background-color: #dadada;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+}
+#emojigrid {
+    display: grid;
+    gap: 1px;
+    grid-column-gap: 5px;
+    border-radius: 10px;
+    background-color: #dadada;
+    width: 0px;
+}
+
+#bbcode {
+    resize: none;
+    width: 70%;
+    height: 200px;
+}

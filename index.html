@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Painter</title>
+</head>
+
+<body>
+    <div id="base">
+        <h1>Emoji Painter</h1>
+        <div id="setupctrl">
+            <div id="setup">
+                <div id="setupheader">
+                    <h2>Setup</h2>
+                </div>
+                <div id="setupcontents">
+                    <input type="number" name="width" id="width">
+                    X
+                    <input type="number" name="height" id="height">
+                </div>
+                <div id="sep"></div>
+                <button onclick="generateEmojis()">Generate Emoji Canvas!</button>
+            </div>
+        </div>
+        <div id="gridcontainer">
+        <div id="emojigrid"></div>
+        </div>
+        <div id="sep"></div>
+        <button onclick="parseGrid()">Parse!</button>
+        Update emojis everytime
+        <input type="checkbox" name="update-s" id="update-s">
+        <div id="result">
+            <h3>Double click the BBCode to use it!:</h3>
+            <textarea disabled id="bbcode"></textarea>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+<link rel="stylesheet" href="index.css">
+
+</html>
